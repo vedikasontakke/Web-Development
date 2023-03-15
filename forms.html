@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form Tags </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend> Fill the information </legend>
+            Name : <input type="text" name="name" required="" maxlength="20" placeholder="enter your name "/>
+            <br/>
+            <br/>
+            Address : <textarea name="address"></textarea>
+            <br/>
+            <br/>
+            Gender :
+            <input type="radio" value="m" name="gender" /> Male 
+            <input type="radio" value="f" name="gender" checked=""/> Female 
+            <input type="radio" value="o" name="gender" /> Other 
+            <br/>
+            <br/>
+
+            Country :
+            <select>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+            </select>
+            <br/>
+            <br/>
+
+            Hobbies :
+            <input type="checkbox" name="hobbies[]"checked=""/> Coding
+            <input type="checkbox" name="hobbies[]"/> Programming
+            <br/>
+            <br/>
+
+            File :
+            <input type="file" name="file"/>
+            <br/>
+            <br/>
+            <input type="submit" value="Send"/>
+            <input type="reset" value="reset"/>
+        </fieldset>
+        </form>
+    </body>
+</html>
