@@ -1,0 +1,19 @@
+.main{
+    width:1600px;
+    height:350px;
+    background-color: aqua;
+    font-size: large;
+    color: black;
+    text-align: center;
+    padding-top: 24%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* whenver mouse we go on the perticular text folwe the instructions which are written in the below section*/
+.main:hover{
+
+    color: rgb(38, 121, 193);
+    background-color: rgba(234, 255, 0, 0.966);
+    font-family: 'Times New Roman', Times, serif;
+     
+}

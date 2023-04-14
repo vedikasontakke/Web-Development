@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Web Development </title>
+        <style type="text/css">
+
+            .box-containner{
+                width: 600px;
+                height: 600px;
+                border: 2px black solid;
+                margin:auto; /* box in center */    
+                position: relative;
+            }
+
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: brown;
+                position: absolute;             /* takes black border box as a parent */
+                top: 0px;
+                left: 0px;   
+                animation: box;
+                animation-duration:  5s;
+                animation-delay: 2s;
+                animation-iteration-count: 2;
+            }
+
+            @keyframes box {
+                0%{
+                    top:0px;
+                    left:0px;
+                    background: red;
+                }
+                25%{
+                    top:0px;
+                    left: 400px;
+                    background: yellow;
+                }
+
+                50%{
+                    top:400px;
+                    left:400px;
+                    background-color: blue;
+                }
+
+                75%{
+                    top:400px;
+                    left:0px;
+                    background-color: green;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-containner">
+            <div class="box"></div>
+        </div> 
+    </body>
+</html>

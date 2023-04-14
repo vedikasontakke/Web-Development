@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Web Development </title>
+        <style type="text/css">
+
+               .box{
+                    width: 275px;
+                    height: 182px;
+                    border: 2px grey solid;
+                    margin: auto;
+                    margin-top: 100px;
+                    position: relative;
+               }
+
+               .add{
+                width: 275px;
+                font-size: 20px;
+                background-color: rgba(0,0,0,0.6);
+                color: white;
+                position: absolute;
+                left: 0px;
+                bottom: -40px;
+                opacity: 0;
+                transition: 1s;
+               }
+
+               /* if box pe hover then target add */
+               .box:hover .add{
+                        bottom: 0px;
+                        opacity: 1;
+               }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+                 <img src="college1.jpg"/>
+                 <input class="add" type="button" name="" value="Add to cart" checked="" />
+
+        </div> 
+    </body>
+</html>
